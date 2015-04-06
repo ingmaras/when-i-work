@@ -11,7 +11,6 @@ module WhenIWork
         if response.success? && response.body['token']
           response.body['token']
         else
-          binding.pry
           raise Error::AuthenticationFailedError
         end
       end

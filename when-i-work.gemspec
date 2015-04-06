@@ -35,7 +35,8 @@ Gem::Specification.new do |s|
     "lib/when-i-work/user.rb",
     "spec/resources/shift_spec.rb",
     "spec/spec_helper.rb",
-    "spec/when-i-work_spec.rb"
+    "spec/when-i-work_spec.rb",
+    "when-i-work.gemspec"
   ]
   s.homepage = "http://github.com/ingmaras/when-i-work"
   s.licenses = ["MIT"]

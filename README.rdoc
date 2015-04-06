@@ -1,6 +1,6 @@
 = when-i-work
 
-Description goes here.
+WhenIWork API wrapper. Work in progress.
 
 == Contributing to when-i-work
  

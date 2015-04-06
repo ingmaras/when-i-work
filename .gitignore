@@ -1,3 +1,5 @@
+spec/fixtures/when-i-work_cassettes/*
+
 # rcov generated
 coverage
 coverage.data

@@ -8,6 +8,10 @@ module SimpleCov::Configuration
   end
 end
 
+def authenticate
+  WhenIWork.configure(ENV['WHENIWORK_USERNAME'], ENV['WHENIWORK_PASSWORD'], ENV['WHENIWORK_API_KEY'])
+end
+
 SimpleCov.configure do
   clean_filters
   load_adapter 'test_frameworks'

@@ -5,7 +5,7 @@ module WhenIWork
 
       def login(username, password, api_key)
         client = client(skip_authentication: true)
-        response = client.post 'login' do |request|
+        response = client.post '2/login' do |request|
           request.body = { username: username, password: password, key: api_key }
         end    
 

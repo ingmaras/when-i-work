@@ -12,7 +12,7 @@ module WhenIWork
     attr_accessor :username, :password, :api_key, :token
 
     def api_url
-      "https://api.wheniwork.com/2/"
+      "https://api.wheniwork.com/"
     end
 
     def configure(username, password, api_key)
